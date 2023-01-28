@@ -1,8 +1,11 @@
 <?php
 /**
+ * SessionHandler
+ *
  * Copyright (c) [2023] [Ramazan Çetinkaya]
  * 
- * https://github.com/ramazancetinkaya
+ * @author [ramazancetinkaya] (https://github.com/ramazancetinkaya)
+ * @date [28.01.2023]
  *
  * Software Ownership and Attribution
  *
