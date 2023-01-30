@@ -1,5 +1,5 @@
 # Session Handler
-An example of a secure Session Handler class using PHP
+Example of a secure Session Handler class written using PHP
 
 ### Authors
 
