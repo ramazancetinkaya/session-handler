@@ -1,7 +1,7 @@
 <h1 align="center">ramazancetinkaya/session-handler</h1>
 
 <p align="center">
-    <strong>text</strong>
+    <strong>A high-quality, powerful, and secure session handler class for PHP.</strong>
 </p>
 
 ###
@@ -9,6 +9,12 @@
 <p align="center">
     :star: Star us on GitHub — it motivates us a lot!
 </p>
+
+## Features
+- Uses the AES-256-CBC encryption algorithm for maximum security.
+- Adheres to coding standards.
+- Comprehensive functionality.
+- Garbage collector to automatically delete expired sessions.
 
 ## Usage
 
@@ -22,6 +28,8 @@ $_SESSION['user_id'] = 42;
 // Don't forget to close the session.
 session_write_close();
 ```
+
+In this example, the SessionHandler class is loaded and session_set_save_handler function is used to allow it to manage the session processing. Then the session is started and the $_SESSION superglobal can be used as normal. Finally, the session must be closed.
 
 ## Installation
 
