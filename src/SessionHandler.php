@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Session Handler Class
+ *
+ * @author Ramazan Çetinkaya
+ * @date 2023-02-12
+ */
+namespace SessionHandler;
+
 class SessionHandler
 {
     /**
