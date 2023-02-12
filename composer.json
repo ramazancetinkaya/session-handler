@@ -1,1 +1,19 @@
-
+{
+    "name": "ramazancetinkaya/session-handler",
+    "description": "A PHP library for secure session handling.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ramazan Çetinkaya"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SessionHandler\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
