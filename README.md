@@ -10,6 +10,15 @@
     :star: Star us on GitHub — it motivates us a lot!
 </p>
 
+## Session Handler
+A session handler is a custom PHP class that can be used to handle the storage and retrieval of session data. This allows developers to have greater control over how session data is stored, including the ability to store it in alternative storage systems like databases, rather than the default file system.
+
+## Benefits of using a custom session handler
+- More control over session data storage.
+- Ability to store session data in alternative storage systems like databases.
+- Improved security and performance compared to the default file system storage.
+- The ability to manage session data more efficiently and effectively.
+
 ## Features
 - Uses the AES-256-CBC encryption algorithm for maximum security.
 - Adheres to coding standards.
