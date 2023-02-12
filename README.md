@@ -1,3 +1,15 @@
+<h1 align="center">ramazancetinkaya/session-handler</h1>
+
+<p align="center">
+    <strong>text</strong>
+</p>
+
+###
+
+<p align="center">
+    :star: Star us on GitHub — it motivates us a lot!
+</p>
+
 ## Usage
 
 ```php
