@@ -13,6 +13,14 @@
 ## Usage
 
 ```php
+session_set_save_handler(new SessionHandler('/path/to/save/sessions', 'secret-key'), true);
+session_start();
+
+// Now you can use the $_SESSION superglobal as you normally would.
+$_SESSION['user_id'] = 42;
+
+// Don't forget to close the session.
+session_write_close();
 ```
 
 ## Installation
